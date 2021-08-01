@@ -1,4 +1,4 @@
-# Sebnem Görmus Angular PoC
+# Sebnem Gormus Angular PoC
 ## REQUIREMENTS
 
 - [x] JSON dataset login (located: /app/_helpers/fake-backend.ts)
