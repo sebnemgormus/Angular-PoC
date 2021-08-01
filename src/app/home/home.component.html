@@ -1,0 +1,24 @@
+<div class="card mt-4">
+    <h4 class="card-header">User management table</h4>
+    <div class="card-body">
+      <table matSort (matSortChange)="sortData($event)">
+        <tr>
+          <th mat-sort-header="firstName" [style.width]="'100px'">Firstname</th>
+          <th mat-sort-header="lastName"  [style.width]="'100px'">Name</th>
+          <th mat-sort-header="username"  [style.width]="'100px'">Username</th>
+          <th mat-sort-header="phone"     [style.width]="'150px'">Phone</th>
+          <th mat-sort-header="email"     [style.width]="'250px'">Email</th>
+          <th mat-sort-header="birthdate" [style.width]="'100px'">Birthdate</th>
+        </tr>
+
+        <tr *ngFor="let users of sortedData">
+          <td>{{users.firstName}}</td>
+          <td>{{users.lastName}}</td>
+          <td>{{users.username}}</td>
+          <td>{{users.phone}}</td>
+          <td>{{users.email}}</td>
+          <td>{{users.birthdate}}</td>
+        </tr>
+      </table>
+    </div>
+</div>
