@@ -9,9 +9,80 @@ export interface User {
 }
 
 const users: User[] = [
+ {
+    email: 'BernardTest@gmail.com',
+    password: 'bernard'
+    
+  },
   {
-    email: 'test@test.com',
-    password: 'test1'
+    email: 'BrionyTest@gmail.com',
+    password: 'briony'
+    
+  },
+  {
+    email: 'VivienTest@gmail.com',
+    password: 'vivien'
+    
+  },
+  {
+    email: 'JonahTest@gmail.com',
+    password: 'jonah'
+    
+  },
+  {
+    email: 'RomanTest@gmail.com',
+    password: 'roman'
+    
+  },
+  {
+    email: 'TylorTest@gmail.com',
+    password: 'tylor'
+    
+  },
+  {
+    email: 'MargaretTest@gmail.com',
+    password: 'margaret'
+    
+  },
+  {
+    email: 'ElleanorTest@gmail.com',
+    password: 'elleanor'
+    
+  },
+  {
+    email: 'MandyTest@gmail.com',
+    password: 'mandy'
+    
+  },
+  {
+    email: 'DeniseTest@gmail.com',
+    password: 'denise'
+    
+  },
+  {
+    email: 'TristramTest@gmail.com',
+    password: 'tristram'
+    
+  },
+  {
+    email: 'HavenTest@gmail.com',
+    password: 'haven'
+    
+  },
+  {
+    email: 'CaryTest@gmail.com',
+    password: 'cary'
+    
+  },
+  {
+    email: 'JeffreyTest@gmail.com',
+    password: 'jeffrey'
+    
+  },
+  {
+    email: 'TinaTest@gmail.com',
+    password: 'tina'
+    
   }
 ]
 
