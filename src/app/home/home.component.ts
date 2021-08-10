@@ -14,21 +14,21 @@ export interface Users {
 @Component({ templateUrl: 'home.component.html', styleUrls: ['home.component.css'] })
 export class HomeComponent {
 
-  users: Users[] = [{ firstName: 'Danyl', lastName: 'Barnard', username: 'ntiOgRAN', phone: "662-600-4909", email: 'TheOnerousTest@gmail.com', birthdate: "1993-01-12" },
-    { firstName: 'Briony ', lastName: 'Noble', username: 'TiciEnDE', phone: "706-629-2219", email: 'TheChemicalTest@gmail.com', birthdate: "1992-07-03" },
-    { firstName: 'Vivien ', lastName: 'Wyatt', username: 'imentero', phone: "931-557-6994", email: 'TheSymptomaticTest@gmail.com', birthdate: "1994-04-10" },
-    { firstName: 'Jonah ', lastName: 'Hibbert', username: 'aheSTiOc', phone: "419-914-9884", email: 'TheChiefTest@gmail.com', birthdate: "1994-02-15" },
-    { firstName: 'Roman ', lastName: 'Cunning', username: 'inGerATe', phone: "619-563-0398", email: 'TheHuskyTest@gmail.com', birthdate: "1993-07-09" },
-    { firstName: 'Tylor ', lastName: 'Wiley', username: 'LANTItyR', phone: "520-279-0515", email: 'TheAbsorbedTest@gmail.com', birthdate: "1990-03-18" },
-    { firstName: 'Margaret ', lastName: 'Mcdowell', username: 'VenDaStU', phone: "304-346-3501", email: 'TheBefittingTest@gmail.com', birthdate: "1990-04-01" },
-    { firstName: 'Elleanor', lastName: 'Miles', username: 'idAdbaPE', phone: "731-264-7203", email: 'TheHallowedTest@gmail.com', birthdate: "1992-02-20" },
-    { firstName: 'Mandy ', lastName: 'Lang', username: 'AStERPUT', phone: "832-206-7158", email: 'TheBetterTest@gmail.com', birthdate: "1992-10-17" },
-    { firstName: 'Denise ', lastName: 'Owens', username: 'PoVerbER', phone: "508-956-4223", email: 'TheThinkableTest@gmail.com', birthdate: "1993-12-27" },
-    { firstName: 'Tristram ', lastName: 'Santos', username: 'eNTripLE', phone: "214-808-6179", email: 'TheLongingTest@gmail.com', birthdate: "1993-03-19" },
-    { firstName: 'Haven  ', lastName: 'Rodgers', username: 'sPAcrYPS', phone: "203-979-1579", email: 'TheErectTest@gmail.com', birthdate: "1994-11-18" },
-    { firstName: 'Cary  ', lastName: 'Sims', username: 'siCinkIn', phone: "484-397-4952", email: 'TheAlertTest@gmail.com', birthdate: "1990-12-05" },
-    { firstName: 'Jeffrey ', lastName: 'Page', username: 'LtmatInE', phone: "410-625-1210", email: 'TheToweringTest@gmail.com', birthdate: "1992-05-01" },
-    { firstName: 'Tina  ', lastName: 'Holland', username: 'EnTEDICI', phone: "814-761-6700", email: 'TheArrogantTest@gmail.com', birthdate: "1992-11-22" }
+  users: Users[] = [{ firstName: 'Danyl', lastName: 'Barnard', username: 'bernard', phone: "662-600-4909", email: 'BernardTest@gmail.com', birthdate: "1993-01-12" },
+    { firstName: 'Briony ', lastName: 'Noble', username: 'briony', phone: "706-629-2219", email: 'BrionyTest@gmail.com', birthdate: "1992-07-03" },
+    { firstName: 'Vivien ', lastName: 'Wyatt', username: 'vivien', phone: "931-557-6994", email: 'VivienTest@gmail.com', birthdate: "1994-04-10" },
+    { firstName: 'Jonah ', lastName: 'Hibbert', username: 'jonah', phone: "419-914-9884", email: 'JonahTest@gmail.com', birthdate: "1994-02-15" },
+    { firstName: 'Roman ', lastName: 'Cunning', username: 'roman', phone: "619-563-0398", email: 'RomanTest@gmail.com', birthdate: "1993-07-09" },
+    { firstName: 'Tylor ', lastName: 'Wiley', username: 'tylor', phone: "520-279-0515", email: 'TylorTest@gmail.com', birthdate: "1990-03-18" },
+    { firstName: 'Margaret ', lastName: 'Mcdowell', username: 'margaret', phone: "304-346-3501", email: 'MargaretTest@gmail.com', birthdate: "1990-04-01" },
+    { firstName: 'Elleanor', lastName: 'Miles', username: 'elleanor', phone: "731-264-7203", email: 'ElleanorTest@gmail.com', birthdate: "1992-02-20" },
+    { firstName: 'Mandy ', lastName: 'Lang', username: 'mandy', phone: "832-206-7158", email: 'MandyTest@gmail.com', birthdate: "1992-10-17" },
+    { firstName: 'Denise ', lastName: 'Owens', username: 'denise', phone: "508-956-4223", email: 'DeniseTest@gmail.com', birthdate: "1993-12-27" },
+    { firstName: 'Tristram ', lastName: 'Santos', username: 'tristram', phone: "214-808-6179", email: 'TristramTest@gmail.com', birthdate: "1993-03-19" },
+    { firstName: 'Haven  ', lastName: 'Rodgers', username: 'haven', phone: "203-979-1579", email: 'HavenTest@gmail.com', birthdate: "1994-11-18" },
+    { firstName: 'Cary  ', lastName: 'Sims', username: 'cary', phone: "484-397-4952", email: 'CaryTest@gmail.com', birthdate: "1990-12-05" },
+    { firstName: 'Jeffrey ', lastName: 'Page', username: 'jeffrey', phone: "410-625-1210", email: 'JeffreyTest@gmail.com', birthdate: "1992-05-01" },
+    { firstName: 'Tina  ', lastName: 'Holland', username: 'tina', phone: "814-761-6700", email: 'TinaTest@gmail.com', birthdate: "1992-11-22" }
   ];
 
   sortedData: Users[];
